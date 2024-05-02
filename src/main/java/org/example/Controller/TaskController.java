@@ -2,17 +2,15 @@ package org.example.Controller;
 
 
 import lombok.AllArgsConstructor;
-import org.apache.coyote.BadRequestException;
 import org.example.DTO.TaskDTO;
 import org.example.entity.Task;
 import org.example.service.TaskService;
 import org.springframework.data.domain.Sort;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.ErrorResponse;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.HashMap;
+
 import java.util.List;
 
 @RestController
